@@ -2,6 +2,11 @@
 name = "nscm-ege-result-parser"
 version = "0.1.0"
 edition = "2024"
+readme = "README.md"
+authors = ["Aleksei Rybin <aleksei@tapni.su>"]
+description = "CLI утилита для получения результатов ЕГЭ с сайта НИМРО"
+keywords = ["terminal", "cli"]
+license = "MIT"
 
 [dependencies]
 clap = { version = "4.5.40", features = ["derive"] }
